@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.text-shadow {
+  text-shadow: -1px 1px 0 lightgrey, 1px 1px 0 lightgrey, 1px -1px 0 lightgrey,
+    -1px -1px 0 lightgrey;
+}
+
+.text-shadow-service {
+  text-shadow: -1px 1px 0 gray, 1px 1px 0 gray, 1px -1px 0 gray,
+    -1px -1px 0 gray;
+}
+
+.outline-text {
+  /* -webkit-text-fill-color: rgb(0, 0, 0, 0.8); */
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 0.3px;
+  -webkit-text-stroke-color: lightgray;
+}
