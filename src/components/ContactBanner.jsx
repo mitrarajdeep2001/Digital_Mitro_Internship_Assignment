@@ -24,7 +24,7 @@ const ContactBanner = () => {
           </div>
           <p>519 N. Causeway Blvd.,Mandeville, LA 70448</p>
         </div>
-        <button className="bg-[#FF8A00] w-[84.16px] h-[23.93px] rounded-[50px] text-[10px]">
+        <button className="bg-[#FF8A00] hover:opacity-70 w-[84.16px] h-[23.93px] rounded-[50px] text-[10px]">
           Contact Us
         </button>
       </div>

@@ -1,3 +1,4 @@
+import { useState } from "react";
 import AboutUs from "./components/AboutUs";
 import CTP from "./components/CTP";
 import ContactBanner from "./components/ContactBanner";
@@ -7,10 +8,14 @@ import Services from "./components/Services";
 import SetUsApart from "./components/SetUsApart";
 
 function App() {
+  const [overflowY, setOverflowY] = useState(false)
+  function handleOverflow(value) {
+    setOverflowY(value)
+  }
   return (
-    <div className="">
+    <div className={overflowY && "overflow-hidden h-screen"}>
       <ContactBanner />
-      <Header />
+      <Header handleOverflow={handleOverflow}/>
       <AboutUs />
       <Services />
       <CTP />
