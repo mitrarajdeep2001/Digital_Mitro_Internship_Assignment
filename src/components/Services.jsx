@@ -7,7 +7,7 @@ const Services = () => {
       <div className="lg:w-[1120px] mx-auto h-[600px]">
         <div>
           <div className="relative">
-            <h2 className="text-[92px] outline-text leading-none absolute z-10 -top-7">
+            <h2 className="text-[92px] outline-text opacity-40 leading-none absolute z-10 -top-7">
               Services
             </h2>
             <h3 className="text-[80px] relative z-20 font-bold leading-none">
